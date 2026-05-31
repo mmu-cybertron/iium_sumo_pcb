@@ -8132,7 +8132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k"
+		(property "Value" "4.7k"
 			(at 260.604 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10096,7 +10096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k"
+		(property "Value" "4.7k"
 			(at 260.604 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)

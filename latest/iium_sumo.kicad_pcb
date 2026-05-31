@@ -2225,7 +2225,7 @@
 		(at 159.58 65.96 -90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "Cytron_SM"
+		(property "Reference" "J11"
 			(at -2.585 0.08 180)
 			(layer "F.SilkS")
 			(uuid "9099200b-b2a2-403c-926f-cab7baccf259")
@@ -2578,7 +2578,7 @@
 		(at 147.325 114.54 90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "VL53_2"
+		(property "Reference" "J2"
 			(at 12.73 -1.05 180)
 			(layer "F.SilkS")
 			(uuid "b80dcb74-2135-494a-992e-ed3443f7898a")
@@ -3013,7 +3013,7 @@
 		(at 154.475 114.555 90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "VL53_3"
+		(property "Reference" "J3"
 			(at 12.645 -0.975 180)
 			(layer "F.SilkS")
 			(uuid "4b1077fc-3aeb-49b5-aacd-b14aa23092b1")
@@ -3605,7 +3605,7 @@
 				)
 			)
 		)
-		(property "Value" "4k"
+		(property "Value" "4.7k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "ad3679d4-b914-4b01-a206-dec5915ec4e1")
@@ -3992,7 +3992,7 @@
 		(at 140.175 114.655 90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "VL53_1"
+		(property "Reference" "J1"
 			(at 12.745 -0.85 180)
 			(layer "F.SilkS")
 			(uuid "1843e0c2-1756-4994-962a-ec203f163098")
@@ -4573,7 +4573,7 @@
 		(at 168.575 114.63 90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "VL53_5"
+		(property "Reference" "J5"
 			(at 12.82 -0.825 180)
 			(layer "F.SilkS")
 			(uuid "d7a9849f-8dd9-46d6-adc7-8b2c34281b18")
@@ -5019,7 +5019,7 @@
 				)
 			)
 		)
-		(property "Value" "4k"
+		(property "Value" "4.7k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "b1025316-1c13-480e-bce9-10737562e548")
@@ -6891,7 +6891,7 @@
 		(at 135.205 68.35)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "MD"
+		(property "Reference" "J10"
 			(at -0.48 4.15 180)
 			(layer "F.SilkS")
 			(uuid "4a2d7eae-e094-42c9-818f-64ced3993390")
@@ -7326,7 +7326,7 @@
 		(at 108.95 65.96 -90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "IR_1"
+		(property "Reference" "J6"
 			(at -2.47 1.825 180)
 			(layer "F.SilkS")
 			(uuid "141cd117-b679-45e3-9e59-7c464386f584")
@@ -10145,7 +10145,7 @@
 		(at 129.42 106)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "UART1"
+		(property "Reference" "J18"
 			(at 0.49 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "330e4ba4-a9f3-4ece-871b-6d3815be79bd")
@@ -10498,7 +10498,7 @@
 		(at 115.925 65.96 -90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "IR_2"
+		(property "Reference" "J7"
 			(at -2.42 2.05 180)
 			(layer "F.SilkS")
 			(uuid "006136d1-9130-48c7-93e9-49a0355d16dd")
@@ -12418,7 +12418,7 @@
 		(at 129.775 65.985 -90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "IR_4"
+		(property "Reference" "J9"
 			(at -2.38 1.825 0)
 			(layer "F.SilkS")
 			(uuid "882551d2-ef14-47b4-bc65-1c41253158e1")
@@ -12771,7 +12771,7 @@
 		(at 122.875 65.96 -90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "IR_3"
+		(property "Reference" "J8"
 			(at -2.42 2.025 180)
 			(layer "F.SilkS")
 			(uuid "ff5e0209-e383-41eb-bcde-9f8c7f6c7710")
@@ -13362,7 +13362,7 @@
 		(at 161.5 114.54 90)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "VL53_4"
+		(property "Reference" "J4"
 			(at 12.655 -1.05 180)
 			(layer "F.SilkS")
 			(uuid "9237357e-ae3f-4309-992c-78c3f8f9b442")
@@ -14406,7 +14406,7 @@
 		(at 149.07 68)
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
-		(property "Reference" "UART2"
+		(property "Reference" "J19"
 			(at 0.405 4.425 0)
 			(layer "F.SilkS")
 			(uuid "92f260e8-ec8b-4bbd-bd9f-ac0890997e43")
