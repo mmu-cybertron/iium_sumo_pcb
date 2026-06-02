@@ -5957,7 +5957,7 @@
 		(uuid "0352cc29-869c-4ea8-b6c5-dca58912c06d")
 	)
 	(label "RX2"
-		(at 64.77 125.73 0)
+		(at 64.77 128.27 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6047,7 +6047,7 @@
 		(uuid "4cdd0228-9ff0-4bf7-9719-21a88936353a")
 	)
 	(label "TX1"
-		(at 41.91 123.19 0)
+		(at 41.91 125.73 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6107,7 +6107,7 @@
 		(uuid "5e160367-81db-4c9d-8641-ba685bd92b43")
 	)
 	(label "PA11"
-		(at 219.71 135.89 0)
+		(at 219.71 140.97 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6207,7 +6207,7 @@
 		(uuid "7ceccfb6-5043-49d8-ae47-1950afc05b16")
 	)
 	(label "TX2"
-		(at 64.77 123.19 0)
+		(at 64.77 125.73 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6307,7 +6307,7 @@
 		(uuid "a4e9bf20-bddc-4116-ad30-09ec375ad83f")
 	)
 	(label "RX1"
-		(at 41.91 125.73 0)
+		(at 41.91 128.27 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6377,7 +6377,7 @@
 		(uuid "b347e68d-67ff-4705-a14e-afeff00eeb1d")
 	)
 	(label "PA15"
-		(at 219.71 140.97 0)
+		(at 219.71 146.05 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6477,7 +6477,7 @@
 		(uuid "d3f83b4f-8ffc-4cd7-b63a-24373cc4ddad")
 	)
 	(label "PA12"
-		(at 219.71 138.43 0)
+		(at 219.71 143.51 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6787,7 +6787,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 146.05 90)
+		(at 219.71 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6798,7 +6798,7 @@
 		(fields_autoplaced yes)
 		(uuid "020fe75f-0cef-4bd1-a273-62f97b452eb8")
 		(property "Reference" "#PWR040"
-			(at 226.06 146.05 0)
+			(at 226.06 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +6809,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 146.0499 90)
+			(at 223.52 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6820,7 +6820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 146.05 0)
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6831,7 +6831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 146.05 0)
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6842,7 +6842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 146.05 0)
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7190,7 +7190,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 128.27 90)
+		(at 41.91 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7201,7 +7201,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eeb3323-6447-47db-8556-a6a57f42753b")
 		(property "Reference" "#PWR08"
-			(at 48.26 128.27 0)
+			(at 48.26 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,7 +7212,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 128.2699 90)
+			(at 45.72 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7223,7 +7223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 128.27 0)
+			(at 41.91 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7234,7 +7234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 128.27 0)
+			(at 41.91 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 128.27 0)
+			(at 41.91 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9079,7 +9079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 128.27 90)
+		(at 64.77 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9090,7 +9090,7 @@
 		(fields_autoplaced yes)
 		(uuid "49764ca8-6171-4000-85d1-e625d6c521e0")
 		(property "Reference" "#PWR012"
-			(at 71.12 128.27 0)
+			(at 71.12 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9101,7 +9101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 128.2699 90)
+			(at 68.58 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9112,7 +9112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 128.27 0)
+			(at 64.77 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9123,7 +9123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 128.27 0)
+			(at 64.77 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +9134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 128.27 0)
+			(at 64.77 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9588,7 +9588,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 219.71 143.51 270)
+		(at 219.71 135.89 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9599,7 +9599,7 @@
 		(fields_autoplaced yes)
 		(uuid "56a2801e-ef8d-4220-a209-62f6010d6d35")
 		(property "Reference" "#PWR039"
-			(at 215.9 143.51 0)
+			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9610,7 +9610,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 223.52 143.51 90)
+			(at 223.52 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9621,7 +9621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 143.51 0)
+			(at 219.71 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9632,7 +9632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 143.51 0)
+			(at 219.71 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9643,7 +9643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 219.71 143.51 0)
+			(at 219.71 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,7 +10721,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 218.44 85.09 270)
+		(at 218.44 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10732,7 +10732,7 @@
 		(fields_autoplaced yes)
 		(uuid "73185c7b-b11f-43b0-acfb-42b4c372516f")
 		(property "Reference" "#PWR017"
-			(at 214.63 85.09 0)
+			(at 214.63 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10743,7 +10743,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 222.25 85.09 90)
+			(at 222.25 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10754,7 +10754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 85.09 0)
+			(at 218.44 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10765,7 +10765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 85.09 0)
+			(at 218.44 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10776,7 +10776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 218.44 85.09 0)
+			(at 218.44 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14306,7 +14306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 87.63 90)
+		(at 218.44 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14317,7 +14317,7 @@
 		(fields_autoplaced yes)
 		(uuid "d988f826-ef1d-4662-ae24-a858127efb7b")
 		(property "Reference" "#PWR019"
-			(at 224.79 87.63 0)
+			(at 224.79 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14328,7 +14328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 87.6299 90)
+			(at 222.25 85.0899 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14340,7 +14340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 87.63 0)
+			(at 218.44 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14351,7 +14351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 87.63 0)
+			(at 218.44 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14362,7 +14362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 87.63 0)
+			(at 218.44 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
