@@ -3158,6 +3158,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -5918,6 +6108,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 50.8) (xy 34.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6492abf-fdbd-456b-912e-fb01d29da582")
+	)
+	(wire
+		(pts
 			(xy 90.17 76.2) (xy 95.25 76.2)
 		)
 		(stroke
@@ -7820,7 +8020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 81.28 90)
+		(at 120.65 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7831,7 +8031,7 @@
 		(fields_autoplaced yes)
 		(uuid "2467f4f1-4d5f-49d0-9570-b6f6f805d986")
 		(property "Reference" "#PWR046"
-			(at 127 81.28 0)
+			(at 127 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +8042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 81.2799 90)
+			(at 124.46 78.7399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,7 +8054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 81.28 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,7 +8065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 81.28 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,7 +8076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 81.28 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8781,6 +8981,84 @@
 			(project "iium_sumo"
 				(path "/70a47adf-789d-4812-99b3-df06d1ca2237"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 38.1 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d7f033f-d183-40b4-8f3e-dbb9403f5229")
+		(property "Reference" "#PWR049"
+			(at 34.29 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "+36V"
+			(at 41.91 50.8001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 38.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01eb6100-11fa-419d-b879-b7a1f0bcae52")
+		)
+		(instances
+			(project "iium_sumo"
+				(path "/70a47adf-789d-4812-99b3-df06d1ca2237"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11153,7 +11431,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 69.85 90)
+		(at 120.65 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11164,7 +11442,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d5da9cf-a01f-4347-8989-13210f9d21a9")
 		(property "Reference" "#PWR020"
-			(at 127 69.85 0)
+			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11175,7 +11453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 69.8499 90)
+			(at 124.46 67.3099 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11187,7 +11465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 69.85 0)
+			(at 120.65 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11198,7 +11476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 69.85 0)
+			(at 120.65 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11209,7 +11487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 69.85 0)
+			(at 120.65 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11226,6 +11504,89 @@
 			(project "iium_sumo"
 				(path "/70a47adf-789d-4812-99b3-df06d1ca2237"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 29.21 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85dae36e-b5e2-4094-9c6c-8c0f55aee08b")
+		(property "Reference" "SW3"
+			(at 29.21 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 29.21 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SPDT_MT-1-102-A001-M200-RS"
+			(at 29.21 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 29.21 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4f07b42-65de-43e2-bbc7-70520c7ee3f2")
+		)
+		(pin "3"
+			(uuid "651016c5-7192-4a04-a92a-b12f52f2a467")
+		)
+		(pin "2"
+			(uuid "e3404d58-3cbc-43c2-9ac1-36f34b46b316")
+		)
+		(instances
+			(project "iium_sumo"
+				(path "/70a47adf-789d-4812-99b3-df06d1ca2237"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -13771,7 +14132,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 120.65 67.31 270)
+		(at 120.65 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13781,7 +14142,7 @@
 		(dnp no)
 		(uuid "c46bbc9d-6799-439a-987a-8333b8825d7f")
 		(property "Reference" "#PWR016"
-			(at 116.84 67.31 0)
+			(at 116.84 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13792,7 +14153,7 @@
 			)
 		)
 		(property "Value" "+36V"
-			(at 124.46 67.3101 90)
+			(at 124.46 69.8501 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13803,7 +14164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 67.31 0)
+			(at 120.65 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13814,7 +14175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 67.31 0)
+			(at 120.65 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13825,7 +14186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 120.65 67.31 0)
+			(at 120.65 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15390,7 +15751,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 120.65 78.74 270)
+		(at 120.65 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15400,7 +15761,7 @@
 		(dnp no)
 		(uuid "f2528455-2311-4807-b70a-789c1b09c16f")
 		(property "Reference" "#PWR045"
-			(at 116.84 78.74 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15411,7 +15772,7 @@
 			)
 		)
 		(property "Value" "+36V"
-			(at 124.46 78.7401 90)
+			(at 124.46 81.2801 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15422,7 +15783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 78.74 0)
+			(at 120.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15433,7 +15794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 78.74 0)
+			(at 120.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15444,7 +15805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 120.65 78.74 0)
+			(at 120.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
