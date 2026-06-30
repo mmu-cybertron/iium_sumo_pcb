@@ -1,0 +1,13 @@
+# KiCad lock files
+*.lck
+
+# KiCad cache
+fp-info-cache
+
+# Backups
+*-backups/
+_restore_backup_*/
+
+# History
+.history/
+

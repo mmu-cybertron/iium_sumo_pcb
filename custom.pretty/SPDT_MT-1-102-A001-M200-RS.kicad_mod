@@ -1,0 +1,109 @@
+(footprint "SPDT_MT-1-102-A001-M200-RS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.15 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "418fc7f3-3b3e-434a-9de1-0b3698266cab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SPDT_MT-1-102-A001-M200-RS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "408d98d5-ce5b-4939-8e89-0b99e7be3073")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78094614-dc56-4a30-9b8e-76e34dd4e42e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "385eebe3-30c3-4b54-adb7-c54cbd190876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.5 -4)
+		(end 6.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7d9eddae-b9fb-4e58-b70d-8047f5347790")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95c12113-58c4-42fd-a908-decf4af60bf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -4.7 0 90)
+		(size 3.5 2.3)
+		(drill oval 2.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "675d31e0-7b53-495e-a037-5c5d50ef70e5")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0 90)
+		(size 3.5 2.3)
+		(drill oval 2.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "fb94a79b-1eb8-4091-9251-19abf9d4b66f")
+	)
+	(pad "3" thru_hole rect
+		(at 4.7 0 90)
+		(size 3.5 2.3)
+		(drill oval 2.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3008690a-226c-4832-8edf-68412db29652")
+	)
+	(embedded_fonts no)
+)
